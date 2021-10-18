@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>computer_graphics</title>
+  </head>
+
+  <body onload="main()">
+    <div style="width:1800px;">
+      <div style="float:left;width:1400px;">
+        <canvas id="webgl" width="1400" height="900">
+        Please use a browser that supports "canvas"
+        </canvas>
+      </div>
+      <div style="float:right;">
+        <h1>Controls</h1>
+        <li>Arrows (←)(→) to rotate left and right</li>
+        <hr>
+        <li>Arrows (↑)(↓) to move camera closer or further</li>
+        <hr>
+        <li>Keys (U)(I) to tilt camera up or down</li>
+        <hr>
+        <li>Keys (Q)(W) to move couches</li>
+        <hr>
+        <li>Keys (A)(S) to move chairs</li>
+        <hr>
+        <li>Key (O) to open or close the Door</li>
+        <hr>
+        <li>Key (x) to switch sun ON or OFF</li>
+        <hr>
+        <li>Space Key to switch TV ON or OFF</li>
+
+
+      </div>
+
+    </div>
+
+
+    <img id="crate-image" src="/Textures/crate.jpg" width="0" height="0"></img>
+    <img id="carpet-image" src="/Textures/carpet.jpg" width="0" height="0"></img>
+    <img id="marble-image" src="/Textures/marble.jpg" width="0" height="0"></img>
+    <img id="marbleblack-image" src="/Textures/marbleblack.jpg" width="0" height="0"></img>
+    <img id="leather-image" src="/Textures/leather.jpg" width="0" height="0"></img>
+    <img id="floor-image" src="/Textures/floor.jpg" width="0" height="0"></img>
+    <img id="door-image" src="/Textures/door.jpg" width="0" height="0"></img>
+    <img id="wall-image" src="/Textures/wall.jpg" width="0" height="0"></img>
+    <img id="wood-image" src="/Textures/wood.jpg" width="0" height="0"></img>
+    <img id="grass-image" src="/Textures/grass.jpg" width="0" height="0"></img>
+    <img id="path-image" src="/Textures/path.jpg" width="0" height="0"></img>
+    <img id="black-image" src="/Textures/black.jpg" width="0" height="0"></img>
+
+    <script src="/lib/webgl-utils.js"></script>
+    <script src="/lib/webgl-debug.js"></script>
+    <script src="/lib/cuon-utils.js"></script>
+    <script src="/lib/cuon-matrix.js"></script>
+    <script src="/lib/gl-matrix.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
